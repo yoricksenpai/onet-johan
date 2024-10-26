@@ -1,0 +1,10 @@
+{
+    "port": 3000,
+    "db": {
+        "host": "localhost",
+        "port": 27017,
+        "name": "onet-nest"
+    },
+    "baseUrl": "http://localhost:3000",
+    "basePath": "api/v0"
+  }
