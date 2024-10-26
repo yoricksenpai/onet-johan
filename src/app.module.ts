@@ -5,7 +5,7 @@ import { WinstonModule } from 'nest-winston';
 import { winstonLoggerConfig } from '../winston.logger';
 
 @Module({
-  imports: [    WinstonModule.forRoot(winstonLoggerConfig)],
+  imports: [WinstonModule.forRoot(winstonLoggerConfig)],
   controllers: [AppController],
   providers: [AppService],
 })
